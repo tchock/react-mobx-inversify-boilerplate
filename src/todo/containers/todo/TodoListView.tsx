@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {observer} from 'mobx-react';
-import Todo from '../../../common/models/Todo';
+import Todo from '../../models/Todo';
 
 interface ITodoViewListProps {
   todos: Todo[];
@@ -12,7 +12,7 @@ const TodoListView: React.StatelessComponent<ITodoViewListProps> = ({todos, onTo
     {
       todos.map((todo: Todo, index: number) => (
         <div key={index}>
-          <span>{todo.name}</span>
+          <span>{todo.name} (by {todo.createdBy})</span>
           <input type='checkbox' checked={todo.isDone} onChange={onTodoChange(index)} />
         </div>
       ))

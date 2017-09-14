@@ -1,11 +1,13 @@
 import * as React from 'react';
 
-import TodoContainer from '../../../todo/containers/todo/TodoContainer';
+import UserContainer from '../User/UserContainer';
+import TodoContainer from '../../../todo/containers/Todo/TodoContainer';
 
 export class App extends React.Component {
   render() {
     return (
       <div>
+        <UserContainer />
         <h1>Todos</h1>
         <TodoContainer />
       </div>

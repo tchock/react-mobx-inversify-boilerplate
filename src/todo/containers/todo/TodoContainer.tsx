@@ -4,8 +4,8 @@ import {observer} from 'mobx-react';
 import TodoListView from './TodoListView';
 import TodoCreateView from './TodoCreateView';
 
-import {lazyInject} from '../../../dependencies';
-import TodoStore from '../../../common/stores/TodoStore';
+import {lazyInject} from '../../dependencies';
+import TodoStore from '../../stores/TodoStore';
 
 @observer
 export default class TodoContainer extends React.Component {
