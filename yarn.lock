@@ -2180,6 +2180,10 @@ invariant@^2.2.1, invariant@^2.2.2:
   dependencies:
     loose-envify "^1.0.0"
 
+inversify-inject-decorators@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/inversify-inject-decorators/-/inversify-inject-decorators-3.0.1.tgz#de46df46ba72642eacac79451ec5c101e4dbcb00"
+
 inversify@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/inversify/-/inversify-4.3.0.tgz#d2ecd2ae18340e7f1ab5148a3e44b87080391366"
